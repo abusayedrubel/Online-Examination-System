@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpeg);
+    background-size: cover;
+    /*background-position: center;*/
+    font-family: sans-serif;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    left: calc(50% - 50px);
+}
+
+
+/*Login*/
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+/*Register*/
+.loginbox_reg{
+    width: 320px;
+    height: 470px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.loginbox_reg h1{
+    margin: 0;
+    padding: 0 0 12px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.loginbox_reg p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox_reg input{
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.loginbox_reg input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.loginbox_reg input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 20px;
+}
+
+.loginbox_reg input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox_reg a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 15px;
+    color: darkgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

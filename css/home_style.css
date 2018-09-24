@@ -1,0 +1,331 @@
+body {
+    font-family: "Lato", sans-serif;
+    padding:0;
+    margin:0;
+    background: #F6F6F6;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  float: right
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+hr {
+    width: 10%;
+    color: #70BC48;
+    padding: 0;
+    margin: 0;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+}
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background:url('../img/bg_home.jpeg') no-repeat -400px;
+    width: 100%;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+.highlight{
+  color:#e8491d;
+  font-weight:bold;
+    font-style: italic;
+}
+
+/*About*/
+
+#about {
+    background: #F6F6F6;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#about h2 {
+    font-size: 30px;
+    padding: 0px;
+    margin: 20px 0 1px 0;
+}
+
+#about .about_sec {
+    margin-top: 10px;
+}
+
+#about .about_sec {
+    float: left;
+    text-align: left;
+    width: 30%;
+    padding: 10px;
+}
+
+#about .about_sec h3 {
+    font-size: 16px;
+}
+
+#about .about_sec p {
+    font-size: 14px;
+}
+
+/*Services*/
+
+#services {
+    background: #F6F6F6;;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#services h2 {
+    font-size: 30px;
+    padding: 0px;
+    margin: 20px 0 1px 0;
+}
+
+#services .services_sec {
+    float: left;
+    text-align: left;
+    width: 23%;
+    padding: 10px;
+}
+
+#services .services_sec img {
+    width: 90px;
+}
+
+#services .services_sec h3 {
+    font-size: 16px;
+}
+
+#services .services_sec p {
+    font-size: 14px;
+}
+
+
+/*Team*/
+
+#team {
+    background: #F6F6F6;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#team h2 {
+    font-size: 30px;
+    padding: 0px;
+    margin: 20px 0 1px 0;
+}
+
+#team .team_sec {
+    float: left;
+    text-align: left;
+    width: 23%;
+    padding: 10px;
+}
+
+#team .team_sec img {
+    width: 120px;
+    background: black;
+}
+
+#team .team_sec h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+#team .team_sec p {
+    font-size: 14px;
+    margin-top: -20px;
+    font-style: italic;
+}
+
+/*Contact*/
+
+#contact {
+    background: #F6F6F6;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0;
+}
+
+#contact h2 {
+    font-size: 30px;
+    padding: 0px;
+    margin: 20px 0 1px 0;
+}
+
+#contact .contact_sec {
+    float: left;
+    width: 45%;
+    text-align: left;
+    padding: 10px;
+}
+
+#contact .contact_sec h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+#contact .contact_sec input,
+#contact .contact_sec textarea {
+    width: 60%;
+    padding: 3px;
+}
+
+/*Footer*/
+
+footer {
+    background: #3C3F41;
+    color: #ffffff;
+    padding-top: 0px;
+    max-height: 300px;
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+footer p {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main content */
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    background-color: green;
+    color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
